@@ -1,13 +1,164 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  width: 100%;
+  margin:0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  z-index: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.homePage{
+  height: 50rem;
+  background-image: url('./images/flood.jpg');
+  background-size: cover;
 }
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0,0.8);
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+.navItemList{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.navbarItems{
+  margin-right: 20px;
+}
+.navItem{
+  list-style: none; 
+  margin: 10px;
+}
+
+/* Home */
+section{
+  margin-block: 50px;
+}
+.problemStatement{
+  position:absolute;
+  text-align: left;
+  width: 50%;
+  color: white;
+  background-color: rgba(0, 0, 0,0.3);
+  padding: 10px;
+  top: 500px;
+  left: 100px;
+}
+
+.problemStatement h2{
+  font-size: 2.5rem;
+}
+
+.problemStatement p{
+  font-size: 1.2rem;
+}
+
+/* Content */
+.content{
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.goals{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin: 20px;
+}
+
+.goals h2, p, h3, li{
+  text-align: left;
+}
+
+.content h2, .content h3 {
+  color: #D6612F; 
+  text-decoration: underline;
+}
+
+.regressionContent li{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  margin-top: 60px;
+}
+
+.regressionContent li img{
+  width: 400px;
+  height: 300px;
+  margin-left: 25px;
+}
+
+#two {
+  margin-right: 60px;
+}
+
+.techStack{
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.techStack ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.techStack li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+}
+
+.techStack img{
+  width: 70px;
+  height: 70px;
+}
+
+.techStack .sciKit{
+  width:130px;
+  height: 90px;
+}
+
+/* Create popup */
+.rainComp{
+  margin-block: 20px 100px;
+}
+
+#csvDataSection img{
+  width: 100%;
+  height: 100%;
+}
+
+#csvDataSection p{
+  text-align: center;
+}
+
+.rainComp #rcs{
+  text-align: center;
+}
+.rainComp h2{
+  /* text-align: center; */
+  color: #D6612F; 
+  text-decoration: underline;
+
+}
+
