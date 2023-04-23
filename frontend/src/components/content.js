@@ -78,7 +78,7 @@ Since all of out first time learning about Random Forest, we had to learn how to
 </p>
 
                     <div className='techStack'>
-                        <p>Tech Stack: </p>
+                        <p><strong>Tech Stack:</strong> </p>
                         <div>
                             <ul>
                                 <li><img src={pythonLogo} alt="" /></li>
