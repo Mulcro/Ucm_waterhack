@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Ucm_waterhack/static/css/main.a3a1341e.css",
+    "main.js": "/Ucm_waterhack/static/js/main.3fa38275.js",
+    "static/media/rforestreg.PNG": "/Ucm_waterhack/static/media/rforestreg.f5a60192abe94c2e694e.PNG",
+    "static/media/flood.jpg": "/Ucm_waterhack/static/media/flood.0ed38dc09bde5025fa24.jpg",
+    "static/media/polyreg.PNG": "/Ucm_waterhack/static/media/polyreg.cc4a957536bba1701b17.PNG",
+    "static/media/linreg.PNG": "/Ucm_waterhack/static/media/linreg.0bceccee6330e2fa5a69.PNG",
+    "static/media/pngegg.png": "/Ucm_waterhack/static/media/pngegg.64b7f85e4ec9573efd8f.png",
+    "static/media/Node.js_logo.svg": "/Ucm_waterhack/static/media/Node.js_logo.dd47e26ed1d7dddf018e5cbffc40f76d.svg",
+    "static/media/NumPy_logo_2020.svg": "/Ucm_waterhack/static/media/NumPy_logo_2020.73023c336dccb83f24cb6300752a501d.svg",
+    "static/media/Pandas_logo.svg": "/Ucm_waterhack/static/media/Pandas_logo.58bc29defd2fa9ef6079e14589f135a8.svg",
+    "static/media/Figma-logo.svg": "/Ucm_waterhack/static/media/Figma-logo.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
+    "index.html": "/Ucm_waterhack/index.html",
+    "static/media/React-icon.svg": "/Ucm_waterhack/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
+    "main.a3a1341e.css.map": "/Ucm_waterhack/static/css/main.a3a1341e.css.map",
+    "main.3fa38275.js.map": "/Ucm_waterhack/static/js/main.3fa38275.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3a1341e.css",
+    "static/js/main.3fa38275.js"
+  ]
+}
