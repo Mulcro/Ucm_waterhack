@@ -29,7 +29,6 @@ const [showData, setShowData] = useState(false);
             }
         })
         .then(data => {
-            console.log(data);
             setCsvData(data);
         })
         .catch(err => { console.log(err) });
@@ -68,7 +67,6 @@ const [showData, setShowData] = useState(false);
     
     const handleSubmit = e => {
         e.preventDefault();
-        console.log(dayInput, monthInput, yearInput);
 
         fetch("https://bear-creak-watcher-7ad6876173e7.herokuapp.com/getData", {
             method: 'POST',
@@ -83,7 +81,6 @@ const [showData, setShowData] = useState(false);
         })
         .then(res => res.json())
         .then(data => { 
-            console.log(data);
             setCsvData(data);
             setShowData(true);
         })
