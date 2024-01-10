@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import img1 from '../images/linreg.PNG';
 import img2 from '../images/polyreg.PNG';
 import img3 from '../images/rforestreg.PNG';
+
 
 import figmalogo from '../images/Figma-logo.svg';
 import reactLogo from '../images/React-icon.svg';
@@ -10,8 +11,10 @@ import numpyLogo from '../images/NumPy_logo_2020.svg';
 import pandasLogo from '../images/Pandas_logo.svg';
 import pythonLogo from '../images/Python-logo-notext.png';
 import scikitLogo from '../images/pngegg.png';
+import CodeSnippet from './codeSnipet';
 
-export default function content() {
+const Content = () => {
+const [viewCode, setViewCode] = useState(false);
   return (
     <div className='content'>
         <section className="goals">
@@ -72,10 +75,10 @@ export default function content() {
                 <div className="development">
                     <h3>Challenges</h3>
                     <p>No experience in the related topics: machine learning, data science
-Learned how to read and take in data that we were given 
-Learned how to analyze the data using machine learning algorithms in order to make more accurate predictions for the future
-Since all of out first time learning about Random Forest, we had to learn how to implement it using our given data
-</p>
+                    Learned how to read and take in data that we were given 
+                    Learned how to analyze the data using machine learning algorithms in order to make more accurate predictions for the future
+                    Since all of out first time learning about Random Forest, we had to learn how to implement it using our given data
+                    </p>
 
                     <div className='techStack'>
                         <p><strong>Tech Stack:</strong> </p>
@@ -103,9 +106,19 @@ Since all of out first time learning about Random Forest, we had to learn how to
                             </ul>
                         </div>
                     </div>
+
+                    
                 </div>
+                <button onClick={() => setViewCode(!viewCode)}>Toggle Python Code view</button>
+                {viewCode &&
+                
+                    <>
+                        <CodeSnippet/>
+                    </>
+                }
             </div>
         </section>
     </div>
   )
 }
+export default Content;
