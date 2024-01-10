@@ -11,7 +11,7 @@ import numpyLogo from '../images/NumPy_logo_2020.svg';
 import pandasLogo from '../images/Pandas_logo.svg';
 import pythonLogo from '../images/Python-logo-notext.png';
 import scikitLogo from '../images/pngegg.png';
-import CodeSnippet from './codeSnipet';
+import CodeSnippet from './CodeSnippet';
 
 const Content = () => {
 const [viewCode, setViewCode] = useState(false);
