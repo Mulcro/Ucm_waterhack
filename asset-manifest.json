@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Ucm_waterhack/static/css/main.a3a1341e.css",
-    "main.js": "/Ucm_waterhack/static/js/main.3fa38275.js",
+    "main.css": "/Ucm_waterhack/static/css/main.fe9092b3.css",
+    "main.js": "/Ucm_waterhack/static/js/main.86d575e6.js",
     "static/media/rforestreg.PNG": "/Ucm_waterhack/static/media/rforestreg.f5a60192abe94c2e694e.PNG",
     "static/media/flood.jpg": "/Ucm_waterhack/static/media/flood.0ed38dc09bde5025fa24.jpg",
     "static/media/polyreg.PNG": "/Ucm_waterhack/static/media/polyreg.cc4a957536bba1701b17.PNG",
@@ -13,11 +13,11 @@
     "static/media/Figma-logo.svg": "/Ucm_waterhack/static/media/Figma-logo.0f4098dccb2a84e24331b00bc6a8dcf8.svg",
     "index.html": "/Ucm_waterhack/index.html",
     "static/media/React-icon.svg": "/Ucm_waterhack/static/media/React-icon.928f956d9c8ebcffb98a8e917154a81a.svg",
-    "main.a3a1341e.css.map": "/Ucm_waterhack/static/css/main.a3a1341e.css.map",
-    "main.3fa38275.js.map": "/Ucm_waterhack/static/js/main.3fa38275.js.map"
+    "main.fe9092b3.css.map": "/Ucm_waterhack/static/css/main.fe9092b3.css.map",
+    "main.86d575e6.js.map": "/Ucm_waterhack/static/js/main.86d575e6.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3a1341e.css",
-    "static/js/main.3fa38275.js"
+    "static/css/main.fe9092b3.css",
+    "static/js/main.86d575e6.js"
   ]
 }
