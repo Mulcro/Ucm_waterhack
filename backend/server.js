@@ -43,6 +43,7 @@ csvStream.pipe(csv({
 
     app.get('/', (req, res) => {
         console.log("still working");
+        console.log(results);
         res.json(results);
     })
 
