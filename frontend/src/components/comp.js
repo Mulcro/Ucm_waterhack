@@ -62,7 +62,7 @@ const [showData, setShowData] = useState(false);
         e.preventDefault();
         console.log(dayInput, monthInput, yearInput);
 
-        fetch("http://localhost:5000/getData", {
+        fetch("https://bear-creak-watcher-7ad6876173e7.herokuapp.com/getData", {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
