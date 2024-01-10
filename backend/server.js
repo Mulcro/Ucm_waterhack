@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 
 // enable CORS with options
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: 'https://mulcro.github.io/Ucm_waterhack/',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
