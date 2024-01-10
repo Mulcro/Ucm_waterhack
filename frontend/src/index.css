@@ -161,4 +161,11 @@ section{
   text-decoration: underline;
 
 }
-
+.hide{
+  display: none;
+}
+.processContent pre .python{
+  margin: auto;
+  width: 60%;
+  text-align: left;
+}
