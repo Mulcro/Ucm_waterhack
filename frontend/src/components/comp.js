@@ -19,7 +19,7 @@ const [showData, setShowData] = useState(false);
     
 //Populate the year array for the selector
     useEffect(() => {
-        fetch("http://localhost:5000/")
+        fetch("https://bear-creak-watcher-7ad6876173e7.herokuapp.com/")
         .then(res => res.json())
         .then(data => {
             console.log(data[0]);
