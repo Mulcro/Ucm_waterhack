@@ -20,11 +20,19 @@ const [showData, setShowData] = useState(false);
 //Populate the year array for the selector
     useEffect(() => {
         fetch("https://bear-creak-watcher-7ad6876173e7.herokuapp.com/")
-        .then(res => res.json())
+        .then(res => {
+            if (res.ok) {
+                return res.json();
+            }
+            else{
+                throw new Error("Something went wrong");
+            }
+        })
         .then(data => {
-            console.log(data[0]);
+            console.log(data);
             setCsvData(data);
         })
+        .catch(err => { console.log(err) });
 
         for(let i = 0; i <= 31; i++){
             setDays(prevDays => {
