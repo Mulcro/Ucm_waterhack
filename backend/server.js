@@ -42,22 +42,14 @@ csvStream.pipe(csv({
 
 
     app.get('/', (req, res) => {
-        console.log("still working");
         res.json(results);
     })
   
     app.post('/getData', (req, res) => {
-        console.log("working");
         if(!req.body.day || !req.body.month || !req.body.year) return res.sendStatus(400);
-        console.log("working");
-        console.log(req.body);
+
 
         const date = `${req.body.day}-${req.body.month}-${req.body.year}`;
-
-        console.log(dates[0]);
-        console.log(date);
-        console.log(typeof(dates[0]));
-        console.log(typeof(date));
         
         const dataIndex = dates.findIndex((element) => element === date);
 
