@@ -43,11 +43,11 @@ csvStream.pipe(csv({
 
     app.get('/', (req, res) => {
         console.log("still working");
-        console.log(results);
         res.json(results);
     })
-
+  
     app.post('/getData', (req, res) => {
+        console.log("working");
         if(!req.body.day || !req.body.month || !req.body.year) return res.sendStatus(400);
         console.log("working");
         console.log(req.body);
